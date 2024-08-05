@@ -12,6 +12,10 @@ export default defineConfig({
         {
           src: 'src/assets/*',
           dest: 'assets'
+        },
+        {
+          src: '404.html',
+          dest: '.'
         }
       ]
     })
